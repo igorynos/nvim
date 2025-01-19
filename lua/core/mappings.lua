@@ -25,3 +25,12 @@ vim.keymap.set("n", "<Tab>", ":BufferLineCycleNext<CR>")
 vim.keymap.set("n", "<s-Tab>", ":BufferLineCyclePrev<CR>")
 vim.keymap.set("n", "<leader>x", ":BufferLinePickClose<CR>")
 vim.keymap.set("n", "<c-x>", ":BufferLineCloseOthers<CR>")
+
+--CodeRun
+vim.keymap.set("n", "<leader>rr", ":RunCode<CR>", { noremap = true, silent = false })
+vim.keymap.set("n", "<leader>rf", ":RunFile<CR>", { noremap = true, silent = false })
+vim.keymap.set("n", "<leader>rft", ":RunFile tab<CR>", { noremap = true, silent = false })
+vim.keymap.set("n", "<leader>rp", ":RunProject<CR>", { noremap = true, silent = false })
+vim.keymap.set("n", "<leader>rc", ":RunClose<CR>", { noremap = true, silent = false })
+vim.keymap.set("n", "<leader>crf", ":CRFiletype<CR>", { noremap = true, silent = false })
+vim.keymap.set("n", "<leader>crp", ":CRProjects<CR>", { noremap = true, silent = false })

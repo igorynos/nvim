@@ -7,6 +7,7 @@ return {
 				typescriptreact = { "eslint" },
 				javascript = { "eslint" },
 				javascriptreact = { "eslint" },
+				python = { "flake8", "mypy" },
 			}
 			vim.api.nvim_create_autocmd({ "BufWritePost" }, {
 				callback = function()
